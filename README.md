@@ -1,15 +1,19 @@
-# Adult Income Prediction
+# Adult Income Prediction 💰
 
-Predict kiya ke koi insan $50K se zyada kamata hai ya kam.
+Predicts whether a person earns more than $50K per year based on census data.
 
 ## Dataset
-48,842 logon ka data - age, education, job wagera
+UCI Adult Census Dataset - 48,842 records, 15 features
+Age, education, occupation, marital status, etc.
 
-## Models
+## Models Used
 - Logistic Regression
-- Random Forest  
+- Random Forest
 - Decision Tree
 - Voting Classifier
 
+## Best Model
+Selected using GridSearchCV with 5-fold cross validation
+
 ## Libraries
-pandas, scikit-learn, matplotlib, seaborn
+pandas, scikit-learn, matplotlib, seaborn, joblib
